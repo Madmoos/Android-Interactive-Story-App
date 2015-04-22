@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import model.Page;
+
 
 public class StoryActivity extends ActionBarActivity {
 
@@ -24,6 +26,7 @@ public class StoryActivity extends ActionBarActivity {
             name ="Friend";
         }
         Log.d(TAG, name);
+
     }
 
 }
